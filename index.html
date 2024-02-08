@@ -16,7 +16,7 @@
     </head>
     <body>
         <header>
-            <div class="interface">
+            <div class="interface" id="i-topo">
                 <div class="logo">
                     <a href="index.html"><img src="images/logo.jpeg" alt="Logo do site" width="70px"></a>
                 </div><!--Logo-->
@@ -147,10 +147,11 @@
                         <input type="text" name="email" id="email" placeholder="Seu e-mail:" required>
                         <input type="text" name="phone" id="telefone" placeholder="Seu celular:">
                         <textarea name="message" id="comentario" cols="30" rows="10" placeholder="Sua mensagem:"></textarea>
-                        <input type="hidden" name="redirectTo" value="https://main--lauragoisportifolio.netlify.app/">
+                        <input type="hidden" name="redirectTo" value="index.html">
                         <div class="btn-enviar">
                             <input type="submit" value="Submit">
                         </div>
+                    </form>
                 </div><!-- interface -->
             </section><!-- formulario -->
         </main>
@@ -175,5 +176,8 @@
             </div><!-- Interface -->
         </footer>
 
+        <div class="btn-cima">
+            <a href="#top"><button><i class="bi bi-caret-up-fill"></i></button></a>
+        </div>
     </body>
 </html>
